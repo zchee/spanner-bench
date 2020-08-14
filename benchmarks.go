@@ -21,9 +21,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/spanner"
-	"github.com/rakyll/spanner-query-benchmark/internal/stats"
 	"google.golang.org/api/iterator"
 	sppb "google.golang.org/genproto/googleapis/spanner/v1"
+
+	"github.com/rakyll/spannerbench/internal/stats"
 )
 
 type benchmarks struct {
